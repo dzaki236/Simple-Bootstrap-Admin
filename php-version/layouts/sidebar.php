@@ -10,6 +10,19 @@
                     <i class="bx bx-grid-alt nav_icon"></i>
                     <span class="nav_name">Dashboard</span>
                 </a>
+                <a class="nav_link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="bx bx-data nav_icon"></i>
+                    <span class="nav_name">Data Master
+                        <i class='bx bx-caret-down'></i>
+                    </span>
+                </a>
+                <div class="collapse" id="collapseExample">
+                    <div>
+                        <a href="#" class="nav_link">
+                            - <span class="nav_name">Customer</span>
+                        </a>
+                    </div>
+                </div>
                 <a href="#" class="nav_link">
                     <i class="bx bx-user nav_icon"></i>
                     <span class="nav_name">Users</span>
